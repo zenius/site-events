@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "site-events-webpart-client-side-solution",
+    "id": "4612156d-d85f-48ab-97fe-e38ba4d5ef6c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [{
+      "resource": "Microsoft Graph",
+      "scope": "User.Read.All"
+    }, {
+      "resource": "Microsoft Graph",
+      "scope": "Calendars.Read"
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/site-events-webpart.sppkg"
+  }
+}
